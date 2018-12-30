@@ -9,3 +9,10 @@ COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
 RUN /usr/local/bin/install-plugins.sh < /usr/share/jenkins/ref/plugins.txt
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
 COPY --chown=jenkins:jenkins config_jenkins /var/jenkins_home
+
+# docker run --name docker-jenkins \
+#     -d \
+#     -p 8080:8080 \
+#     -v jenkins_home:/var/jenkins_home \
+#     -v jenkins_backup:/srv/backup \
+#     andremorita/missao-devops-jenkins

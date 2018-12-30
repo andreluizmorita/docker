@@ -18,7 +18,7 @@ jenkins-design-language:1.4.2
 jdk-tool:1.1
 active-directory:2.6
 resource-disposer:0.8
-ansible:0.8
+ansible:1.0
 blueocean-git-pipeline:1.4.2
 parameterized-trigger:2.35.2
 handy-uri-templates-2-api:2.1.6-1.0
@@ -47,7 +47,7 @@ jackson2-api:2.8.11.1
 token-macro:2.3
 ruby-runtime:0.12
 pipeline-stage-tags-metadata:1.2.7
-ant:1.8
+ant:1.9
 gitlab-plugin:1.5.4
 git-client:2.7.1
 gitlab-merge-request-jenkins:2.0.0
